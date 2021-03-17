@@ -1,20 +1,12 @@
-first = 'Ben'
-last = 'Waples'
+is_hot = False
 
-# message = first + ' [' + last + '] is a coder'
 
-# formatted string
-msg = f'{first} [{last}] is a coder'
-print(msg)
+# python using indentation instead of curly braces for code blocks
+if is_hot:
+    print("its a hot day")
+    print('drink waster')
+else:
+    print('its a cold day')
+    print('wear a jacket')
 
-string = 'hello my name is random'
-# len() to find length
-print(len(string))
-
-# we can still call methods on things, .upper() doesnt mutate original string
-print(string.upper())
-print(string)
-
-# still can find things, I wonder if not mutating things is common in py
-print(string.replace('o', 'ow'))
-print(string)
+print('enjoy your day')
