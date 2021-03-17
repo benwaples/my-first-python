@@ -1,11 +1,16 @@
-# birth_year = input('birth year: ')
-# age = 2019 - int(birth_year)
-# #convert string to integer
-# #can use float or bool for respective types
-# print(type(birth_year))
-# print(type(age))
-# print(age)
+happy = 'i am happy'
 
-cups_of_milk = input('how many cups of milk do you like: ')
-ounces = 8 * int(cups_of_milk)
-print(ounces)
+# python can get a -value for index and start from end of list
+print(happy[-2])
+
+# this will print the characters from 0-3, excluding index 3 though
+print(happy[0:3])
+
+# print everything after the first index
+print(happy[1:])
+
+# print everthing before the 3rd index
+print(happy[:3])
+
+# make a copy of the happy string
+copy = happy[:]
