@@ -1,14 +1,4 @@
-price = 10
-print(price)
+name = input('what is your name? ')
+color = input('what is your favorite color?')
 
-price = 20
-print(price)
-
-rating = 4.9
-name = 'Ben'
-# booleans are referenced capitalized
-isFun = False
-
-name = 'John Smith'
-age = 20
-new_patient = True
+print(name + 's favorite color is ' + color)
