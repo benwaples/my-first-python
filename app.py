@@ -12,10 +12,17 @@ is_cold = False
 # else:
 #     print('enjoy your day')
 
-has_good_credit = False
-home_cost = 1000000
+# has_good_credit = False
+# home_cost = 1000000
+#
+# if has_good_credit:
+#     print(f'down payment: {int(home_cost * .1)}')
+# else:
+#     print(f'down payment: {int(home_cost * .2)}')
 
-if has_good_credit:
-    print(f'down payment: {int(home_cost * .1)}')
-else:
-    print(f'down payment: {int(home_cost * .2)}')
+# and operator
+has_high_income = True
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    print('applicant is eligable')
