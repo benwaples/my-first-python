@@ -1,9 +1,6 @@
-weight = input('Weight: ')
-measurement = input('(L)bs or (k)g: ')
+i = 1
 
-if measurement.upper() == 'L':
-    print(f'you weigh {weight} pounds')
-else:
-    print(f'you wiegh {weight} kilograms')
-
-# / will return a float, // will retrun a int
+while i <= 5:
+    print(i)
+    i = i + 1
+print('done')
