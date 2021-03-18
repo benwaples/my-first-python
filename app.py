@@ -1,7 +1,4 @@
-prices = [10, 20, 15, 30, 25]
-total = 0
+numbers = [5, 2, 5, 2, 2]
 
-for i in prices:
-    total += i
-
-print(total)
+for i in numbers:
+    print('X' * i)
