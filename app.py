@@ -9,13 +9,13 @@ has_quit = False
 
 while not has_quit:
     user_input = input('>')
-    if user_input == 'start':
+    if user_input.lower() == 'start':
         print(start_message)
-    if user_input == 'stop':
+    if user_input.lower() == 'stop':
         print(stop_message)
-    if user_input == 'help':
+    if user_input.lower() == 'help':
         print(help_message)
-    if user_input == 'quit':
+    if user_input.lower() == 'quit':
         print('game over')
         has_quit = True
     else:
