@@ -1,4 +1,9 @@
-numbers = [5, 2, 5, 2, 2]
+numbers = [5, 2, 5, 24, 2]
+largest_number = numbers[0]
 
 for i in numbers:
-    print('X' * i)
+    if i > largest_number:
+        largest_number = i
+
+print(largest_number)
+
